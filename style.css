@@ -90,8 +90,7 @@ div img {
 .recipe-sidenotes{
     border-radius: 10px;
     background-color: rgb(240, 236, 230);
-    padding-left:10px;
-    padding-bottom: 25px;
+    padding: 25px;
 }
 
 .nutrition-info{
