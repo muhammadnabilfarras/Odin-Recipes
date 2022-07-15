@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 html{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -94,7 +95,6 @@ div img {
 }
 
 .nutrition-info{
-    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -112,7 +112,13 @@ div img {
     flex-grow: 3;
 }
 
-.right-container, .steps-container, .ingredients-container, .recipe-sidenotes{
+.chef-notes{
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(41, 41, 41);
+}
+
+.right-container, .steps-container, .ingredients-container, .recipe-sidenotes, .chef-notes{
     padding:0px 20px 0px 20px;
 }
 
